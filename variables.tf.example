@@ -1,0 +1,19 @@
+variable "clustername" {
+  type = "string"
+  default = "terraform-test-cluster"
+}
+
+variable "projectname" {
+  type = "string"
+  default = "project-name"
+}
+
+variable "zonename" {
+  type = "string"
+  default = "europe-west1-b"
+}
+
+variable "min_master_version" {
+  type = "string"
+  default = "1.13"
+}
